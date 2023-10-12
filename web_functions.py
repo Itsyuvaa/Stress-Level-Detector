@@ -20,8 +20,8 @@ def load_data():
     
 
     # Perform feature and target split
-    X = df[["sr","rr","bt","lm","bo","rem","sh","hr"]]
-    y = df['sl']
+    X = df[["sr","rr","bt","lm","bo","rem","sh"]]
+    y = df['hr']
 
     return df, X, y
 
